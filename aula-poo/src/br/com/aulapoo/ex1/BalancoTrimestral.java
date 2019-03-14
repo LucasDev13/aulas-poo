@@ -13,9 +13,9 @@ public class BalancoTrimestral {
 	public static void main(String[] args) {
 		int gastosJaneiro = 15000;
 		int gastosFevereiro = 23000;
-		int gastosMarço = 17000;
+		int gastosMarco = 17000;
 		
-		int gastosTrimestre = gastosJaneiro + gastosFevereiro + gastosMarço; 
+		int gastosTrimestre = gastosJaneiro + gastosFevereiro + gastosMarco; 
 		
 		int media = gastosTrimestre / 3;
 		
@@ -24,6 +24,8 @@ public class BalancoTrimestral {
 		System.out.println("Realizado o commit e push 11/03/19");
 		
 		System.out.println("auterado do git 1");
+		
+		System.out.println("auterado do eclipse 1");
 	}
 
 }
