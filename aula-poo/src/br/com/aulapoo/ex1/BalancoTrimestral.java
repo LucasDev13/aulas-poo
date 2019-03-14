@@ -26,6 +26,8 @@ public class BalancoTrimestral {
 		System.out.println("auterado do git 1");
 		
 		System.out.println("auterado do eclipse 1");
+		
+		System.out.println("AUTERADO DO GIT 2");
 	}
 
 }
