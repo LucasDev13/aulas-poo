@@ -21,15 +21,8 @@ public class BalancoTrimestral {
 		
 		System.out.println("O gasto trimestral é: " + gastosTrimestre);
 		System.out.println("Média: " + media);
-		System.out.println("Realizado o commit e push 11/03/19");
 		
-		System.out.println("auterado do git 1");
-		
-		System.out.println("auterado do eclipse 1");
-		
-		System.out.println("AUTERADO DO GIT 2");
-		
-		
+		//calculo de multiplicação 
 		int gastoMulti = gastosJaneiro * gastosFevereiro * gastosMarco;
 		System.out.println("gasto multiplicado: " + gastoMulti);
 	}
