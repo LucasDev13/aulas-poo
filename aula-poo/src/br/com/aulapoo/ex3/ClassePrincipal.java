@@ -15,10 +15,17 @@ public class ClassePrincipal {
 		//Ele acha a classe por que esta no mesmo nivel do projeto, caso contrario teria que importar o biblioteca
 		
 		//Instanciar uma classe qualquer e transformar a classe em um Objeto
-		Carro c4 = new Carro();
+		Carro c4 = new Carro();//instancia do objeto
 		c4.ligar();
-//		c4.trocarMarcha();
-//		c4.acelerar(50);// ira passar o valor aqui e não direto no metodo
+		c4.freio = false;
+		c4.trocarMarcha();
+		c4.acelerar(19);// ira passar o valor aqui e não direto no metodo
+		c4.trocarMarcha();
+		c4.acelerar(39);
+		c4.trocarMarcha();
+		c4.acelerar(59);
+
+		
 //		c4.acelerar(80);// quando chama o metodo ele ja da uma  opção de velocidade
 //		c4.acelerar(100);// o parametro criado no metodo acelerar será utilizado aqui nesta linha 
 //		c4.acelerar(120);
