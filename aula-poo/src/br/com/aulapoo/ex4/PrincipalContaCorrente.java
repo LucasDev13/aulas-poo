@@ -14,7 +14,7 @@ public class PrincipalContaCorrente {
 		ContaCorrente cc = new ContaCorrente();
 		cc.verSaldo();
 		cc.depositar(100);
-		cc.verSaldo();
+		cc.verSaldo(); //desconto de 1% para ver o saldo
 		cc.Sacar(65);
 		cc.verSaldo();
 		

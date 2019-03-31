@@ -26,10 +26,12 @@ public class ContaCorrente {
 		}else {
 			this.saldo = this.saldo - this.valorSaque;
 			System.out.println("Você sacou: " + this.valorSaque);
-			
+			System.out.println("sua conta tem: " + this.saldo);
 			this.desconto = (this.saldo * 3)/100;
 			this.saldo = this.saldo - this.desconto;
 			System.out.println("Foi descontado " + this.desconto + " do seu saque");
+			
+			
 		}
 	}
 	
@@ -37,6 +39,12 @@ public class ContaCorrente {
 		if(this.saldo == 0) {
 			System.out.println("conta zerada");
 		}else {
+			System.out.println("sua conta tem: " + this.saldo);// mostra o saldo antes do desconto para ver o saldo
+			
+			this.desconto = (this.saldo * 1)/100;
+			this.saldo = this.saldo - this.desconto;
+			System.out.println("Foi descontado " + this.desconto + " do seu saque");
+			
 			System.out.println("sua conta tem: " + this.saldo + " Reais");
 		}
 		
