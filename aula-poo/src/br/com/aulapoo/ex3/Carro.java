@@ -16,7 +16,7 @@ public class Carro {
 	// variaveis primitivas são declaradas com letras minusculas e com cores
 	// diferentes
 	public int ano;
-	private int marcha = 0;//atribuido 0 para sem marcha
+	private int marcha = 0;//atribuido 0 para sem marcha que vai encapsular com o metodo
 	public boolean ligado; // o boolean ele é por default - false. Voce precisa mudar o estado dela por realizar a comparação
 	public int velocidade;
 	public boolean freio = true; //indica que o freio esta puxado
